@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: #B4FF9F;
+    color: black;
+    justify-content: space-between;
+}
+nav{
+    background-color: #F9FFA4;
+   text-align: center;
+}
+section{
+    grid-column: 1/4;
+    background-color: #FFD59E;
+    
+}
+aside{
+    grid-column:4/5;
+    background-color: aliceblue;
+}
+footer{
+    background-color: #FFA1A1;
+    color: black;
+    text-align: center;
+
+
+}
+main{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
