@@ -32,7 +32,14 @@ main{
 }
 
 .menu{
+    padding: 0px 20px;
+    text-align: center;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.menu>li{
+    float: left;
 }
