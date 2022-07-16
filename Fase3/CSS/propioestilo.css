@@ -2,17 +2,18 @@ header{
     display: flex;
     flex-direction: row;
     text-align: center;
-    background-color: #B4FF9F;
+    background-color: #FFC8BD;
     color: black;
     justify-content: space-between;
 }
 nav{
-    background-color: #F9FFA4;
-   text-align: center;
+    background-color: #EFA8E4;
+    text-align: center;
+    
 }
 section{
     grid-column: 1/4;
-    background-color: #FFD59E;
+    background-color: #FFEBD9;
     
 }
 aside{
@@ -39,7 +40,9 @@ main{
     justify-content:space-around;
     flex-wrap: wrap;
     align-items: flex-start;
-}
+
+    }
 .menu>li{
     float: left;
+    color: black;
 }
